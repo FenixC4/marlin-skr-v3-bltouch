@@ -1487,7 +1487,7 @@
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define PROBING_MARGIN 10
+#define PROBING_MARGIN 15
 
 // X and Y axis travel speed (mm/min) between probes
 #define XY_PROBE_FEEDRATE (133*60)
@@ -2005,7 +2005,7 @@
   //=================================== Mesh ==================================
   //===========================================================================
 
-  #define MESH_INSET 10          // Set Mesh bounds as an inset region of the bed
+  #define MESH_INSET 15          // Set Mesh bounds as an inset region of the bed
   #define GRID_MAX_POINTS_X 3    // Don't use more than 7 points per axis, implementation limited.
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
